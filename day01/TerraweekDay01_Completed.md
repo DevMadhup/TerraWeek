@@ -3,6 +3,11 @@
 ## Day 1: Introduction to Terraform and Terraform Basics
 
 ### What is Terraform and how can it help you manage infrastructure as code?
+### Ans:- 
+         Terraform is IAAC ( Infrastructure As A Code ) tool which used to build and change infrastructure.
+         
+         It helps us to manage infrastructure as code in following ways:
+  
 
 - Why do we need Terraform and how does it simplify infrastructure provisioning?
 
