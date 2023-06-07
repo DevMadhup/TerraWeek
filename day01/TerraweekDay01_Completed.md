@@ -27,11 +27,21 @@
          
 ### How can you install Terraform and set up the environment for AWS, Azure, or GCP?
 ### Ans:-
+         Installation:
+         
+         wget -O- https://apt.releases.hashicorp.com/gpg | sudo gpg --dearmor -o /usr/share/keyrings/hashicorp-archive-keyring.gpg
+         echo "deb [signed-by=/usr/share/keyrings/hashicorp-archive-keyring.gpg] https://apt.releases.hashicorp.com $(lsb_release -cs) main" | sudo tee                    /etc/apt/sources.list.d/hashicorp.list
+         sudo apt update && sudo apt install terraform
          
          
          
 ### Explain the important terminologies of Terraform with the example at least (5 crucial terminologies).
 ### Ans:- 
+         1) Provider
+         2) Resource
+         3) Module
+         4) Variable 
+         5) Output
          
 Attach code snippets and steps wherever necessary and post your learnings on LinkedIn
 
