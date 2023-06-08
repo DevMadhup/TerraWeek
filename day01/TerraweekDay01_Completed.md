@@ -38,6 +38,7 @@
 ### Explain the important terminologies of Terraform with the example at least (5 crucial terminologies).
 ### Ans:- 
          1) Provider
+         - A provider is a plugin that lets Terraform manage an external API.
          2) Resource
          3) Module
          4) Variable 
