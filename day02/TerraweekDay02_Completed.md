@@ -3,13 +3,27 @@
 ## Task 1: Familiarize yourself with HCL syntax used in Terraform
 ### Learn about HCL blocks, parameters, and arguments
 ### Ans:-
-          Blocks 
+         1) Blocks 
           - We can write actual configuration code in between blocks only. 
             We can create block by using {}.
             
           Syntax:
                  <block_name> <resource_type> <resource_name> {
                  
+                 }
+          Example:
+                 resource "local_file" "file1"{
+                      filename = "/home/ubuntu/file1.txt"
+                      content = "I am a devops engineer"
+                 }
+          
+         2) Arguments:
+          - Anything written inside the block is called as arguments.
+          
+          Syntax:
+                 <block_name> <resource_type> <resource_name> {
+                              <argument1> = ""
+                              <argument2> = ""
                  }
           Example:
                  resource "local_file" "file1"{
