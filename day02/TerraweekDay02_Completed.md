@@ -14,6 +14,7 @@
           Example:
                  resource "local_file" "file1"{
                       filename = "/home/ubuntu/file1.txt"
+                      content = "I am a devops engineer"
                  }
                  
 - Explore the different types of resources and data sources available in Terraform
