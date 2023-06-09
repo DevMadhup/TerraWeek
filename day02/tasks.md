@@ -1,10 +1,7 @@
 # TerraWeek Day 2
 
 ## Task 1: Familiarize yourself with HCL syntax used in Terraform
-### Learn about HCL blocks, parameters, and arguments
-### Ans:-
-          Blocks - Blocks in
-
+- Learn about HCL blocks, parameters, and arguments
 - Explore the different types of resources and data sources available in Terraform
 
 ## Task 2: Understand variables, data types, and expressions in HCL
