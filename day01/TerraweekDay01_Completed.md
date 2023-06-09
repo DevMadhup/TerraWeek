@@ -39,10 +39,21 @@
 ### Ans:- 
          1) Provider
          - A provider is a plugin that lets Terraform manage an external API.
+         
          2) Resource
+         - Resources are the most important element in the Terraform.
+           Each resource block describes one or more infrastructure objects,
+           such as virtual networks, compute instances, or higher-level
+           components such as DNS records
+         
          3) Module
-         4) Variable 
+         - Module is a collection of terraform configuration files in a directory.
+         
+         4) Variable
+         - Variables in terraforms are used to store reusable values.
+         
          5) Output
+         - Terraform output helps to share data between Terraform configurations, and with other tools and automation.
          
 Attach code snippets and steps wherever necessary and post your learnings on LinkedIn
 
